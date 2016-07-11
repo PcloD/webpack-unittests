@@ -1,0 +1,26 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+   },
+  "globals": {
+    "Urls": true
+  },
+  "rules": {
+    "indent": ["error", 2],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "no-unused-vars": ["error", { "vars": "all", "args": "after-used" }],
+    "eqeqeq": ["warn"],
+    "space-before-function-paren": ["error", "never"],
+    "space-before-blocks": "error",
+    "no-undef": "error",
+    "block-scoped-var": "error",
+    "curly": ["error", "multi-line"],
+    "dot-notation": ["error", { "allowKeywords": false }],
+    "no-else-return": "error",
+    "no-lone-blocks": "error",
+    "no-multi-spaces": "error",
+    "no-new-wrappers": "error"
+  }
+}
